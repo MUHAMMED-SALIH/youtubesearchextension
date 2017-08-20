@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "search in youtube",
+  "description": "allow to search anything in youtube just by selection and right click",
+  "version": "1.0",
+  "background":{
+    "scripts":["background.js"]
+  },
+
+  "icons":{
+    "64":"icon.jpg",
+    "32":"icon.jpg",
+    "16":"icon.jpg",
+    "128":"icon.jpg"
+},
+"permissions":[
+  "contextMenus"
+]
+
+}
